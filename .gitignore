@@ -1,0 +1,23 @@
+# Credentials
+*.env
+.env.*
+secrets.json
+*-credentials.json
+
+# Publish queue (runtime state)
+content-engine-publish-queue.json
+
+# Plugin builds
+*.plugin
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc

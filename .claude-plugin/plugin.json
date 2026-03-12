@@ -1,0 +1,9 @@
+{
+  "name": "content-engine",
+  "version": "0.5.0",
+  "description": "AI-powered content production system for Axelerant — mines engagement signals from HubSpot, Granola, Slack, and Google Drive, then produces use-case, platform, and industry content through a 9-agent pipeline including visual design, automated HubSpot CMS publishing, and Slack-based review workflows.",
+  "author": {
+    "name": "Axelerant Marketing"
+  },
+  "keywords": ["content", "marketing", "storytelling", "engagement", "axelerant", "hubspot", "publishing"]
+}

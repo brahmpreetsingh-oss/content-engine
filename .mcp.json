@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "hubspot": {
+      "description": "HubSpot CRM — used by the Story Signal Fetcher to scan deal notes, contact activity, and engagement records for story candidates. Also used by the orchestrator for HubSpot CMS blog post creation and publishing.",
+      "notes": "Must be connected in Cowork settings. Used by story-signal-fetcher, orchestrator, and story-intelligence agents. CMS publishing uses the HubSpot PAT via osascript for direct API access."
+    },
+    "slack": {
+      "description": "Slack — used to scan project channels for milestone announcements, technical breakthroughs, and client feedback threads. Also used to post review drafts and monitor reviewer approval for auto-publish.",
+      "notes": "Must be connected in Cowork settings. Story Signal Fetcher searches project-specific channels. Orchestrator posts drafts and monitors review threads for approval signals."
+    },
+    "google-drive": {
+      "description": "Google Drive — used to locate retrospective documents, ADRs, delivery reports, and proposal documents",
+      "notes": "Must be connected in Cowork settings. Story Signal Fetcher searches by client/project name and document type keywords."
+    },
+    "granola": {
+      "description": "Granola — used to access meeting transcripts from retrospectives, technical reviews, client feedback calls, and kickoffs",
+      "notes": "Must be connected in Cowork settings. Story Intelligence Agent reads full transcripts for context; Signal Fetcher scans titles and summaries for candidates."
+    }
+  }
+}
